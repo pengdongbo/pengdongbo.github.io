@@ -1,9 +1,9 @@
 ---
-title: "论文"
+title: "Publications"
 subtitle: "Publications"
 weight: 30
 build:
   render: never
   list: always
 ---
-待补充。
+To be updated.

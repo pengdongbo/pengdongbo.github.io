@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ .Site.Title }}</title><meta name="description" content="{{ .Site.Params.description }}">
 <link rel="canonical" href="{{ .Permalink }}"><link rel="stylesheet" href="{{ "css/main.css" | relURL }}"></head>
-<body><a class="skip" href="#about">跳转到正文</a>
-<header class="site-header"><nav class="container navigation" aria-label="主导航"><a class="brand" href="#about">{{ .Site.Params.name }}</a><div class="nav-links"><a href="#about">简介</a>{{ range .Site.RegularPages.ByWeight }}<a href="#{{ .File.ContentBaseName }}">{{ .Title }}</a>{{ end }}<a href="{{ .Site.Params.github }}">GitHub ↗</a></div></nav></header>
+<body><a class="skip" href="#about">Skip to content</a>
+<header class="site-header"><nav class="container navigation" aria-label="Main navigation"><a class="brand" href="#about">{{ .Site.Params.name }}</a><div class="nav-links"><a href="#about">About</a>{{ range .Site.RegularPages.ByWeight }}<a href="#{{ .File.ContentBaseName }}">{{ .Title }}</a>{{ end }}<a href="{{ .Site.Params.github }}">GitHub ↗</a></div></nav></header>
 <main>
 <section id="about" class="home-section"><div class="container about-grid">
 <aside class="profile">
-{{ with .Params.avatar }}<img class="portrait" src="{{ . | relURL }}" alt="{{ $.Site.Params.name }} 的头像" width="200" height="200">{{ else }}<div class="portrait initials" aria-label="个人头像字母标识">P</div>{{ end }}
+{{ with .Params.avatar }}<img class="portrait" src="{{ . | relURL }}" alt="{{ $.Site.Params.name }} profile photo" width="200" height="200">{{ else }}<div class="portrait initials" aria-label="Profile initials">P</div>{{ end }}
 <h1>{{ .Site.Params.name }}</h1>{{ with .Params.role }}<p class="role">{{ . }}</p>{{ end }}{{ with .Params.organization }}<p class="organization">{{ . }}</p>{{ end }}
-<a class="social" href="{{ .Site.Params.github }}" aria-label="访问 pengdongbo 的 GitHub">GitHub ↗</a>
+<a class="social" href="{{ .Site.Params.github }}" aria-label="Visit pengdongbo on GitHub">GitHub ↗</a>
 </aside>
 <div class="biography"><h2>{{ .Title }}</h2><div class="prose">{{ .Content }}</div>
-<div class="details-grid"><div><h3>研究兴趣</h3>{{ with .Params.interests }}<ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ else }}<p class="muted">待补充</p>{{ end }}</div><div><h3>教育经历</h3>{{ with .Params.education }}<ul class="education">{{ range . }}<li><strong>{{ .degree }}</strong><span>{{ .institution }}{{ with .year }} · {{ . }}{{ end }}</span></li>{{ end }}</ul>{{ else }}<p class="muted">待补充</p>{{ end }}</div></div>
+<div class="details-grid"><div><h3>Research Interests</h3>{{ with .Params.interests }}<ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ else }}<p class="muted">To be updated.</p>{{ end }}</div><div><h3>Education</h3>{{ with .Params.education }}<ul class="education">{{ range . }}<li><strong>{{ .degree }}</strong><span>{{ .institution }}{{ with .year }} · {{ . }}{{ end }}</span></li>{{ end }}</ul>{{ else }}<p class="muted">To be updated.</p>{{ end }}</div></div>
 </div></div></section>
 {{ range .Site.RegularPages.ByWeight }}<section id="{{ .File.ContentBaseName }}" class="home-section"><div class="container section-grid"><div><h2>{{ .Title }}</h2>{{ with .Params.subtitle }}<p class="section-subtitle">{{ . }}</p>{{ end }}</div><div class="prose section-content">{{ .Content }}</div></div></section>{{ end }}
 </main><footer class="container">© {{ now.Year }} {{ .Site.Params.name }} · Powered by <a href="https://gohugo.io/">Hugo</a></footer></body></html>

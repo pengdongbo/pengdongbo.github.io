@@ -1,9 +1,9 @@
 ---
-title: "荣誉"
+title: "Awards"
 subtitle: "Awards"
 weight: 40
 build:
   render: never
   list: always
 ---
-待补充。
+To be updated.

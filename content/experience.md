@@ -1,9 +1,9 @@
 ---
-title: "经历"
+title: "Experience"
 subtitle: "Experience"
 weight: 10
 build:
   render: never
   list: always
 ---
-待补充。
+To be updated.
