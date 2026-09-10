@@ -1,0 +1,9 @@
+baseURL = 'https://pengdongbo.github.io/'
+locale = 'zh-CN'
+defaultContentLanguage = 'zh'
+title = 'pengdongbo | 个人主页'
+disableKinds = ['taxonomy', 'term', 'RSS']
+[params]
+  name = 'pengdongbo'
+  description = 'pengdongbo 的个人主页'
+  github = 'https://github.com/pengdongbo'
