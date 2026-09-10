@@ -2,7 +2,7 @@
 title: "Bio"
 role: "Postdoc Researcher"
 organization: "New Mexico State University"
-avatar: "images/avatar.jpg"
+avatar: "image/avatar.jpg"
 interests:
   - Foundation models
   - Reinforcement learning
