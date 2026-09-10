@@ -13,6 +13,4 @@ education:
     institution: "University of California, Riverside"
 ---
 
-Welcome to my website! I am a postdoctoral researcher at New Mexico State University (NMSU), working on agentic AI for power grid systems.
-
-I hold a Ph.D. in Electrical Engineering, with expertise in **large-scale combinatorial optimization**, **machine learning**, and **reinforcement learning** for sequential decision-making systems. I have experience developing end-to-end ML pipelines, AutoML systems, and mixed-integer optimization solutions for logistics and energy applications.
+Welcome to my website! I am a Postdoctoral Researcher at New Mexico State University (NMSU), working on reinforcement learning and foundation models for power grid systems. I hold a Ph.D. in Electrical Engineering, with expertise in large-scale combinatorial optimization, machine learning, and reinforcement learning for sequential decision-making. My experience includes developing end-to-end machine learning pipelines, AutoML systems, and mixed-integer optimization methods for logistics and energy applications.
