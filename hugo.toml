@@ -1,9 +1,9 @@
 baseURL = 'https://pengdongbo.github.io/'
 locale = 'en-US'
 defaultContentLanguage = 'en'
-title = 'pengdongbo | Personal Website'
+title = 'Dongbo Peng | Personal Website'
 disableKinds = ['taxonomy', 'term', 'RSS']
 [params]
-  name = 'pengdongbo'
-  description = 'Personal website of pengdongbo'
+  name = 'Dongbo Peng'
+  description = 'Personal website of Dongbo Peng'
   github = 'https://github.com/pengdongbo'

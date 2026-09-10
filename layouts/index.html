@@ -10,7 +10,7 @@
 <aside class="profile">
 {{ with .Params.avatar }}<img class="portrait" src="{{ . | relURL }}" alt="{{ $.Site.Params.name }} profile photo" width="200" height="200">{{ else }}<div class="portrait initials" aria-label="Profile initials">P</div>{{ end }}
 <h1>{{ .Site.Params.name }}</h1>{{ with .Params.role }}<p class="role">{{ . }}</p>{{ end }}{{ with .Params.organization }}<p class="organization">{{ . }}</p>{{ end }}
-<a class="social" href="{{ .Site.Params.github }}" aria-label="Visit pengdongbo on GitHub">GitHub ↗</a>
+<a class="social" href="{{ .Site.Params.github }}" aria-label="Visit {{ .Site.Params.name }} on GitHub">GitHub ↗</a>
 </aside>
 <div class="biography"><h2>{{ .Title }}</h2><div class="prose">{{ .Content }}</div>
 <div class="details-grid"><div><h3>Research Interests</h3>{{ with .Params.interests }}<ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ else }}<p class="muted">To be updated.</p>{{ end }}</div><div><h3>Education</h3>{{ with .Params.education }}<ul class="education">{{ range . }}<li><strong>{{ .degree }}</strong><span>{{ .institution }}{{ with .year }} · {{ . }}{{ end }}</span></li>{{ end }}</ul>{{ else }}<p class="muted">To be updated.</p>{{ end }}</div></div>
