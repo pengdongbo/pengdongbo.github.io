@@ -1,11 +1,9 @@
 ---
-title: "个人简介"
-role: ""
-organization: ""
-avatar: ""
-interests: []
-education: []
+title: "Bio"
+role: "Postdoc Researcher"
+organization: "New Mexico State University"
+avatar: "images/avatar.jpg"
+interests: [Foundation models, Reinforcement learning]
+education: [Ph.D. in Electrical Engineering, University of California Riverside]
 ---
-欢迎来到我的个人主页，我是 **pengdongbo**。
-
-你可以在 [GitHub](https://github.com/pengdongbo) 找到我。
+Welcome to my personal website **pengdongbo**.
