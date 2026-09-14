@@ -13,7 +13,7 @@ build:
 
 *August 2026 – Present*
 
-Advisor: Dr. Di Shi.
+Conducting research on foundation models and reinforcement learning for power systems.
 
 ---
 
@@ -23,7 +23,7 @@ Advisor: Dr. Di Shi.
 
 *September 2021 – June 2026*
 
-Advisors: Dr. Kanok Boriboonsomsin and Dr. Matthew J. Barth.
+Conducted research on electric vehicle routing, charging planning, and microgrid control.
 
 ---
 
@@ -32,3 +32,5 @@ Advisors: Dr. Kanok Boriboonsomsin and Dr. Matthew J. Barth.
 Amazon Delivery Science
 
 *June 2025 – September 2025*
+
+Developed machine learning models for last-mile UTR technology.
